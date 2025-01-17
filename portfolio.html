@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<title>Your Name - Portfolio</title>
+<style>
+    
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body {
+        margin: 30px;
+        font-family: Arial, sans-serif;
+        background-color: #f4f4f4;
+        color: #333;
+    }
+
+    
+    header {
+        background-color: #2c3e50;
+        color: white;
+        padding: 20px 0;
+        text-align: center;
+    }
+
+    header .logo h1 {
+        margin: 0;
+    }
+
+    header .tagline {
+        font-style: italic;
+        margin-top: 10px;
+    }
+
+    
+    #about {
+        padding: 40px 20px;
+        background-color: white;
+        text-align: center;
+    }
+
+    #about h2 {
+        font-size: 2em;
+        margin-bottom: 20px;
+    }
+
+    .profile-pic {
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        margin-bottom: 20px;
+    } 
+
+    
+    #projects {
+        padding: 40px 20px;
+        background-color: #ecf0f1;
+        text-align: center;
+    }
+
+    #projects h2 {
+        font-size: 2em;
+        margin-bottom: 20px;
+        color: #34495e;
+    }
+
+    .project {
+        display: inline-block;
+        width: 45%;
+        margin: 20px;
+        background-color: white;
+        padding: 20px;
+        text-align: center;
+        border-radius: 5px;
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .project:hover {
+        transform: translateY(-10px);
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    }
+
+    .project img {
+        height: 200px;
+        border-radius: 5px;
+        margin-bottom: 10px;
+    }
+
+    .project h3 {
+        font-size: 1.5em;
+        margin-bottom: 10px;
+        color: #2980b9;
+    }
+
+    .project p {
+        font-size: 1em;
+        color: #555;
+    }
+
+    
+    #skills {
+        padding: 40px 20px;
+        background-color: white;
+        text-align: center;
+    }
+
+    #skills h2 {
+        font-size: 2em;
+        margin-bottom: 20px;
+        color: #34495e;
+    }
+
+    #skills ul {
+        list-style-type: none;
+        padding: 0;
+    }
+
+    #skills li {
+        margin: 15px 0;
+        padding: 10px 20px;
+        background-color: #3498db;
+        color: white;
+        border-radius: 5px;
+        font-size: 1.2em;
+        display: inline-block;
+        transition: all 0.3s ease;
+    }
+
+    #skills li:hover {
+        background-color: #2980b9;
+        box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+    }
+
+    
+    #resume {
+        color: black;
+        padding: 40px 20px;
+        background-color: #ecf0f1;
+        text-align: center;
+    }
+
+    #resume a {
+        text-decoration: none;
+        color: white;
+        font-weight: bold;
+        margin: 10px 20px;
+        padding: 10px 20px;
+        display: inline-block;
+        background-color: #3498db;
+        border-radius: 5px;
+    }
+
+    #resume a:hover {
+        background-color: #2980b9;
+    }
+
+    
+    #contact {
+        padding: 40px 20px;
+        background-color: white;
+        text-align: center;
+    }
+
+    #contact h2 {
+        font-size: 2em;
+        margin-bottom: 20px;
+    }
+
+    
+    footer {
+        background-color: #2c3e50;
+        color: white;
+        text-align: center;
+        padding: 10px;
+    }
+</style>
+</head>
+<body>
+
+
+<header>
+    <div class="logo">
+        <h1>TANMAY WALKE</h1>
+    </div>
+    <p class="tagline">A passionate web developer</p>
+</header>
+
+
+<section id="about">
+    <h2>About Me</h2>
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTtuphMb4mq-EcVWhMVT8FCkv5dqZGgvn_QiA&s" alt="Your Photo" class="profile-pic">
+    <p>
+        I am a web developer with experience in front-end technologies like HTML, CSS, and JavaScript.
+        I love creating clean, user-friendly, and responsive websites.
+    </p>
+</section>
+
+
+<section id="projects">
+    <h2>Projects</h2>
+    <div class="project">
+        <img src="https://cdni.iconscout.com/illustration/premium/thumb/weather-app-illustration-download-in-svg-png-gif-file-formats--online-update-smartphone-public-broadcasting-service-pack-network-communication-illustrations-3738479.png" alt="Project 1">
+        <h3>Weather App</h3>
+        <p>The Weather App project provides real-time weather updates based on user location or searched cities. It uses an external API to fetch accurate weather data, including temperature, humidity, wind speed, and forecast. The app features a clean and responsive design, ensuring smooth usage across devices.</p>
+    </div>
+    <div class="project">
+        <img src="https://www.pngplay.com/wp-content/uploads/6/E-Commerce-Transparent-File.png" alt="Project 2">
+        <h3>E-commerce Platform</h3>
+        <p>The E-Commerce Platform project allows users to browse and purchase products online with ease. It features a user-friendly interface, product search, and category filtering options. Secure payment integration enables users to complete transactions safely. Admin functionalities are included for managing product listings, inventory, and order tracking.</p>
+    </div>
+</section>
+
+
+<section id="skills">
+    <h2>Skills</h2>
+    <ul>
+        <li>HTML5</li>
+        <li>CSS3</li>
+        <li>JavaScript</li>
+        <li>React</li>
+        <li>Node.js</li>
+    </ul>
+</section>
+
+
+<section id="resume">
+    <h2>Resume</h2>
+    <p>Click below to download my resume:</p>
+    <a href="resume.pdf" download>Download Resume</a>
+</section>
+
+
+<section id="contact">
+    <h2>Contact</h2>
+    <p>Email: your-email@example.com</p>
+    <p>Phone: (123) 456-7890</p>
+</section>
+
+
+<footer>
+    <p>&copy; 2025 Your Name. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
